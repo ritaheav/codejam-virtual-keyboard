@@ -54,10 +54,10 @@ const Keyboard = {
         ];
         let eventcode = [
             "Digit1", "Digit2", "Digit3", "Digit4", "Digit5", "Digit6", "Digit7", "Digit8", "Digit9", "0", "Delete",
-            "Tab","Keyq", "Keyw", "Keye", "Keyr", "Keyt", "Keyy", "Keyu", "Keyi", "Keyo", "Keyp",
-            "CapsLock", "Keya", "Keys", "Keyd", "Keyf", "Keyg", "Keyh", "Keyj", "Keyk", "Keyl", "Enter",
-            "ShiftLeft", "Keyz", "Keyx", "Keyc", "Keyv", "Keyb", "Keyn", "Keym", ",", "Period", "Slash",
-            "ctrl", "Space", "ctrl"
+            "Tab","KeyQ", "KeyW", "KeyE", "KeyR", "KeyT", "KeyY", "KeyU", "KeyI", "KeyO", "KeyP",
+            "CapsLock", "KeyA", "KeyS", "KeyD", "KeyF", "KeyG", "KeyH", "KeyJ", "KeyK", "KeyL", "Enter",
+            "ShiftLeft", "KeyZ", "KeyX", "KeyC", "KeyV", "KeyB", "KeyN", "KeyM", ",", "Period", "Slash",
+            "ControlLeft", "Space", "ControlRight"
         ];
         const createIconHTML = (icon_name) => {
             return `<i class="material-icons">${icon_name}</i>`;
