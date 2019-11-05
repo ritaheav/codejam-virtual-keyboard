@@ -47,20 +47,20 @@ const Keyboard = {
             "shift", "z", "x", "c", "v", "b", "n", "m", ",", ".", "?","shift-r",
             "ctrl", "Alt", "space", "Alt", "ctr"
         ];
-        let localStorage = [
-            "1", "2", "3", "4", "5", "6", "7", "8", "9", "0", "backspace",
-            "tab","й", "ц", "у", "к", "е", "н", "г", "ш", "щ", "з", "х", "ъ",
-            "caps", "ф", "ы", "в", "а", "п", "р", "о", "л", "д","ж", "э", "enter",
-            "shift", "я", "ч", "c", "м", "и", "т", "ь", "б", "ю", ".","shift-r",
-            "ctrl", "space", "ctrl"
-        ];
-        let eventcode = [
-            "Digit1", "Digit2", "Digit3", "Digit4", "Digit5", "Digit6", "Digit7", "Digit8", "Digit9", "0", "Delete",
-            "Tab","KeyQ", "KeyW", "KeyE", "KeyR", "KeyT", "KeyY", "KeyU", "KeyI", "KeyO", "KeyP",
-            "CapsLock", "KeyA", "KeyS", "KeyD", "KeyF", "KeyG", "KeyH", "KeyJ", "KeyK", "KeyL", "Enter",
-            "ShiftLeft", "KeyZ", "KeyX", "KeyC", "KeyV", "KeyB", "KeyN", "KeyM", ",", "Period", "Slash",
-            "ControlLeft", "Space", "ControlRight"
-        ];
+ //       let localStorage = [
+  //          "1", "2", "3", "4", "5", "6", "7", "8", "9", "0", "backspace",
+  //          "tab","й", "ц", "у", "к", "е", "н", "г", "ш", "щ", "з", "х", "ъ",
+ //           "caps", "ф", "ы", "в", "а", "п", "р", "о", "л", "д","ж", "э", "enter",
+ //           "shift", "я", "ч", "c", "м", "и", "т", "ь", "б", "ю", ".","shift-r",
+ //           "ctrl", "space", "ctrl"
+  //      ];
+ //       let eventcode = [
+  //          "Digit1", "Digit2", "Digit3", "Digit4", "Digit5", "Digit6", "Digit7", "Digit8", "Digit9", "0", "Delete",
+ //           "Tab","KeyQ", "KeyW", "KeyE", "KeyR", "KeyT", "KeyY", "KeyU", "KeyI", "KeyO", "KeyP",
+ //           "CapsLock", "KeyA", "KeyS", "KeyD", "KeyF", "KeyG", "KeyH", "KeyJ", "KeyK", "KeyL", "Enter",
+  //          "ShiftLeft", "KeyZ", "KeyX", "KeyC", "KeyV", "KeyB", "KeyN", "KeyM", ",", "Period", "Slash",
+  //          "ControlLeft", "Space", "ControlRight"
+ //       ];
         const createIconHTML = (icon_name) => {
             return `<i class="material-icons">${icon_name}</i>`;
         };
