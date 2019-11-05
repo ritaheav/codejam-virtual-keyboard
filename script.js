@@ -3,6 +3,8 @@ textarea.className = "textarea--input";
 textarea.cols = 100;
 textarea.rows = 10;
 document.body.appendChild(textarea);
+textarea.setAttribute("autofocus", true);
+
 
 const Keyboard = {
     elements: {
@@ -43,7 +45,7 @@ const Keyboard = {
             "tab","q", "w", "e", "r", "t", "y", "u", "i", "o", "p",
             "caps", "a", "s", "d", "f", "g", "h", "j", "k", "l", "enter",
             "shift", "z", "x", "c", "v", "b", "n", "m", ",", ".", "?","shift-r",
-            "ctrl", "space", "ctr"
+            "ctrl", "Alt", "space", "Alt", "ctr"
         ];
         let localStorage = [
             "1", "2", "3", "4", "5", "6", "7", "8", "9", "0", "backspace",
@@ -205,8 +207,20 @@ const Keyboard = {
         this.eventHandlers.oninput = oninput;
         this.eventHandlers.onclose = onclose;
     },
+
+    
+  //  realButton(){
+   //     document.addEventListener("keydown", (e) => {
+   //         
+   //     })
+   //     document.addEventListener("keyup", (e) => {
+    //        
+    //    })
+  //  }
 };
+
 window.addEventListener("DOMContentLoaded", function () {
     Keyboard.init();
+    Keyboard.realButton()
 });
 
